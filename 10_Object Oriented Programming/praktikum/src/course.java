@@ -1,3 +1,4 @@
+<<<<<<< HEAD:10_Object Oriented Programming/praktikum/src/course.java
 public class course {
     private String title;
     private String description;
@@ -63,3 +64,6 @@ public class course {
 
     }
 }
+=======
+
+>>>>>>> 8dd9b901882215c872e16288707c1fa7f4c6b754:10_Object Oriented Programming/praktikum/Soal-prioritas1
