@@ -1,0 +1,26 @@
+Soal
+
+1. Jelaskan jenis-jenis dari performance testing (minimal: 3).
+2. Sebutkan dan jelaskan tools yang dapat digunakan untuk melakukan performance testing (minimal: 3).
+
+Jawaban
+
+1.1. Load Testing
+     Jenis tes ini akan dilakukan dengan menentukan target load. Biasanya digunakan untuk persiapan menghadapi
+     sebuah event musiman yang trafiknya bertambah seiring waktu.
+1.2. Stress Testing
+     yaitu melakukan tes dengan load diluar ekspektasi hingga sistem tidak mampu lagi handle trafiknya.     
+1.3. Volume Testing
+     Tes ini dilakukan untuk melihat bagaimana behaviour sistem ketika memiliki data yang sangat besar.
+1.4. Soak Testing
+     dimana kita akan melakukan tes dengan load yang normal, namun dalam waktu yang panjang. Tujuannya 
+     untuk melakukan analisa dan evaluasi behaviour sistem kita.
+
+2.1. Apache JMeter adalah kerangka kerja Java yang melakukan berbagai tes beban, kinerja, dan fungsional.
+2.2. Apidog adalah platform kolaborasi terintegrasi yang menggabungkan dokumentasi API, debugging, uji 
+     coba tiruan, dan pengujian. Ini dapat membantu Anda merancang, mengembangkan, dan menguji API dengan 
+     cepat, meningkatkan efisiensi pengembangan, dan mendukung protokol HTTP, SOAP, WebSocket, dan lainnya.
+2.3. WebLOAD adalah alat uji kinerja yang dirancang untuk menguji beban dan stres aplikasi web, menyediakan 
+     antarmuka yang ramah pengguna dan fitur pelaporan yang komprehensif.
+2.4. Gatling adalah alat uji kinerja yang dikembangkan dalam bahasa Scala, yang dapat digunakan untuk uji 
+     beban dan pengujian kinerja aplikasi web dan aplikasi WebSocket.

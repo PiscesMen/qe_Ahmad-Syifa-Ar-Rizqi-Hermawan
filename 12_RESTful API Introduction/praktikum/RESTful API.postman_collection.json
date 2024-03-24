@@ -1,0 +1,123 @@
+{
+	"info": {
+		"_postman_id": "464faf77-01c5-450c-b2f3-fa4338e4439c",
+		"name": "RESTful API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33049771"
+	},
+	"item": [
+		{
+			"name": "12-RAPII",
+			"item": [
+				{
+					"name": "get data",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{jsonplaceholder}}posts",
+							"host": [
+								"{{jsonplaceholder}}posts"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "post data",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "{{jsonplaceholder}}posts",
+							"host": [
+								"{{jsonplaceholder}}posts"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get data base ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{jsonplaceholder}}posts/1",
+							"host": [
+								"{{jsonplaceholder}}posts"
+							],
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "edit data based ID",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"id\": 1,\r\n    \"title\": \"foo\",\r\n    \"body\": \"bar\",\r\n    \"userId\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{jsonplaceholder}}posts/1",
+							"host": [
+								"{{jsonplaceholder}}posts"
+							],
+							"path": [
+								"1"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "delete data",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "jsonplaceholder",
+			"value": "https://jsonplaceholder.typicode.com/",
+			"type": "string"
+		}
+	]
+}

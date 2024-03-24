@@ -1,4 +1,4 @@
-<<<<<<< HEAD:10_Object Oriented Programming/praktikum/src/course.java
+// <<<<<<< HEAD:10_Object Oriented Programming/praktikum/src/course.java
 public class course {
     private String title;
     private String description;
@@ -61,8 +61,7 @@ public class course {
         System.out.println("level : " + level);
         System.out.println("price : " + price);
         System.out.println("============");
-
-    }
+    
 }
 =======
 
